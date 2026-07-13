@@ -1,0 +1,5 @@
+class Student(models.Model):
+	stuid = models.IntegerField()
+	stuname = models.Charfield(max_length=50)
+	stumarks = models.DecimalField(max_digits=8,decimal_place=2)
+
