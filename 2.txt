@@ -1,0 +1,6 @@
+class Register{
+	string Userid;
+	string UserName;
+	string Password;
+	string emailId;
+}
