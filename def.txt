@@ -1,0 +1,4 @@
+class Product(models.Model):
+	prodid = models.IntegerField()
+	prodname = models.CharField()
+	prodmarks = models.IntegerField()
