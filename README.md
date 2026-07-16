@@ -14,6 +14,7 @@
 
 # github-practice
 
+<<<<<<< Updated upstream
 story 2:
 
 
@@ -37,4 +38,19 @@ class register{
 &#x09;}
 
 }
+=======
+story 1:
+
+
+
+def home(request):
+
+&#x09;return render(request,'myapp/home.html')
+
+
+
+def register(request):
+
+&#x09;return render(request,)
+>>>>>>> Stashed changes
 
